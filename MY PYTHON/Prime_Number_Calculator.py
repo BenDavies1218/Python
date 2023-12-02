@@ -13,5 +13,5 @@ while again in ["y", "Y", "Yes", "YES", "yes"]:
                     break  
             # is a prime number
             else:  
-                print (number)
+                print(number)
     again = input("Do another Calculation? Y / N: \n")

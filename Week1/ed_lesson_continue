@@ -1,0 +1,15 @@
+def string_filter(list_of_words):
+
+    result = []
+
+    for item in list_of_words:
+        result.append(item)
+        if item in ["heck", "dang"]:
+            result.remove(item)
+            continue
+        else:
+            continue
+    print(result)
+    
+
+string_filter(["hello", "heck", "Run"])
