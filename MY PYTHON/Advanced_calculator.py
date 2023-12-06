@@ -1,7 +1,11 @@
-# advanced Math calculation done with custom functions
-# Prime Number calculator
-# Volume Calculator advanced cones odd shapes
-# Speed Conversions advanced
-# Triangle Calculation advanced 
-# GUI Interface
-# loops back to begining
+numbers = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0
+while (i < len(numbers) - 1) and (numbers[i] < numbers[i+1]):
+    i += 1
+print(i)
+print(numbers[i])
+
+numbers[i] = numbers[i-1]
+numbers[i-1] = numbers[i]
+
+print(numbers)
