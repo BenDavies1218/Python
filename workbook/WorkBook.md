@@ -270,7 +270,37 @@ fahrenheit = (celsius * 9/5) + 32
 print(f"The result is: {fahrenheit}.")
 ```
 ## _Question 13_
-  - 
+```
+numbers = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0
+while (i < len(numbers) - 1) and (numbers[i] < numbers[i+1]):
+    i += 1
+print(i)
+
+numbers[i] = numbers[i+1]
+numbers[i+1] = numbers[i]
+```
+  - Python cannot swap the elements as we would like in the code above, this is because python excutes the code from top to bottom. On line 280 we specific a new value for the variable numbers[i], we then asign a new value on line 281 to numbers[i+1] = numbers[i]. Therefore we get numbers[i] and numbers[i+1] both being equal to eachother. To make the code execute the way we want it to we need change line 280, python is able to assign multiple variables on the same line we just need to use a comma inbetween them and keep in mind it will asign the variables from left to right. An example of the working code is written below.
+```
+numbers = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0
+while (i < len(numbers) - 1) and (numbers[i] < numbers[i+1]):
+    i += 1
+print(i)
+
+numbers[i], numbers[i+1] = numbers[i+1], numbers[i]
+```
 ## _Question 14_
 ## _Question 15_
+  - #### Raining Program
+    To check if its raining i've written the following pseudo code:
+    ```
+    # Decare variables raining and cold
+    # Get user input is it raining
+    # Get user input tempature as an integer
+    # IF statement is raining
+      # turnary operator for is Cold else hot 
+    # else statement
+      # turnary operator for is Cold else hot
+    ```
 ## _Question 16_
