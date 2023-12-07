@@ -291,7 +291,16 @@ print(i)
 numbers[i], numbers[i+1] = numbers[i+1], numbers[i]
 ```
 ## _Question 14_
-
+![Prime Number Flow Chart](Prime_flowchart.drawio.png)
+ - #### Pseudocode
+   ```
+   # Create variables for start number, count and prime list
+   # while loop for num < 101
+   # if statement to check if num is a prime
+   # if num is prime append to prime list
+   # num =+ 1 
+   # print Prime list after while loop break
+   ```
 
 
 ## _Question 15_
@@ -302,9 +311,10 @@ numbers[i], numbers[i+1] = numbers[i+1], numbers[i]
     # Get user input is it raining
     # Get user input tempature as an integer
     # IF statement is raining
-      # turnary operator for is Cold else hot 
+    # turnary operator for is Cold else hot 
     # else statement
-      # turnary operator for is Cold else hot
+    # turnary operator for is Cold else hot
+    # print result to console
     ```
 ## _Question 16_
 ```
