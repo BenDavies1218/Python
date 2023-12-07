@@ -23,12 +23,31 @@ weighted_skills = {
 }
 def skill_score():
     print("Welcome to the Coder Skill Score")
-    user_skills = [input("Please Enter the skills coding skills you have \n")]
+    user_input = [input("Please Enter the skills coding skills you have \n")]
+    user_skills = user_input[0].split(" ")
+    
+    user_score = 0
+    
+    print(f"Your skills are: {user_skills}")
 
-    print(user_skills)
+    for key, value in weighted_skills.items():
+        if key in user_skills:
+            user_score = user_score + value
+        else:
+            continue
+    print(f"Your Skill Score is: {user_score} Points\n")
 
-    if user_skills in weighted_skills.items():
-        print("found")
+    improvements = {}
 
+    for key, value in weighted_skills.items():
+        if key not in user_skills:
+            improvements[key] = value
+        else:
+            continue
+
+    print("To Improve your Skill Score you could learn the follow Programming lanuages")
+    for key, value in improvements.items():
+        print(f"{key} ':' {value} Extra Points")
 
 skill_score()
+

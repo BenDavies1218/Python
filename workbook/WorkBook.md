@@ -61,7 +61,7 @@ ben_davies = [
     "Male", 27, "Full Stack Developer",
     {
         "favourite Language": "Python",
-        "favourite code":"print("Hello World")"
+        "favourite code": "print("Hello World")"
     }
 ]
 ```
@@ -291,6 +291,9 @@ print(i)
 numbers[i], numbers[i+1] = numbers[i+1], numbers[i]
 ```
 ## _Question 14_
+
+
+
 ## _Question 15_
   - #### Raining Program
     To check if its raining i've written the following pseudo code:
@@ -304,3 +307,44 @@ numbers[i], numbers[i+1] = numbers[i+1], numbers[i]
       # turnary operator for is Cold else hot
     ```
 ## _Question 16_
+```
+weighted_skills = {
+    "python": 1,
+    "ruby": 2,
+    "bash": 4,
+    "git": 8,
+    "html": 16,
+    "tdd": 32,
+    "css": 64,
+    "javascript": 128
+}
+def skill_score():
+    print("Welcome to the Coder Skill Score")
+    user_input = [input("Please Enter the languages you know \n")]
+    user_skills = user_input[0].split(" ")
+    
+    user_score = 0
+    
+    print(f"Your skills are: {user_skills}")
+
+    for key, value in weighted_skills.items():
+        if key in user_skills:
+            user_score = user_score + value
+        else:
+            continue
+    print(f"Your Skill Score is: {user_score} Points\n")
+
+    improvements = {}
+
+    for key, value in weighted_skills.items():
+        if key not in user_skills:
+            improvements[key] = value
+        else:
+            continue
+
+    print("To Improve your Skill Score you could learn the follow Programming lanuages")
+    for key, value in improvements.items():
+        print(f"{key} ':' {value} Extra Points")
+
+skill_score()
+```
