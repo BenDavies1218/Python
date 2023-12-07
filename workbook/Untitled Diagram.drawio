@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T13:49:38.344Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="etlK5qWfty7KVNAdbH8I" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T13:52:38.022Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="kAqnm08Z-8BpdhlnfEWg" version="22.1.7" type="github">
   <diagram name="Page-1" id="9W5EAdGtC44kiYuYa2hc">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
             <mxPoint x="400" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KPeqagEkYrqyDwO1NMMB-3" value="num = 0&lt;br&gt;count = 0&lt;br&gt;prime_list = []" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KPeqagEkYrqyDwO1NMMB-3" value="num = 0&lt;br&gt;prime_list = []" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KPeqagEkYrqyDwO1NMMB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KPeqagEkYrqyDwO1NMMB-6" target="KPeqagEkYrqyDwO1NMMB-7">
@@ -38,7 +38,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KPeqagEkYrqyDwO1NMMB-6" value="Is count &amp;gt; 101" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KPeqagEkYrqyDwO1NMMB-6" value="Is num &amp;gt; 101" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="345" y="440" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KPeqagEkYrqyDwO1NMMB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KPeqagEkYrqyDwO1NMMB-7">
@@ -74,7 +74,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KPeqagEkYrqyDwO1NMMB-14" value="count += 1&lt;br&gt;num += 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KPeqagEkYrqyDwO1NMMB-14" value="num += 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="652.5" width="70" height="45" as="geometry" />
         </mxCell>
         <mxCell id="KPeqagEkYrqyDwO1NMMB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KPeqagEkYrqyDwO1NMMB-20" target="KPeqagEkYrqyDwO1NMMB-14">
