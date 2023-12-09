@@ -1,3 +1,3 @@
-var x = "2";
-var result = x + 2;
-console.log(result);
+let x = "2";
+let y = 4
+console.log(x + y);

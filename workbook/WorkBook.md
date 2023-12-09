@@ -207,11 +207,11 @@ References
 
 ## _Question 9_
   - #### Type Coercion
-    - Type Coercion occurs when the programming langauge executes a block of code and the data changes from one type to another type of data. Example a string variable of "2" changes to a integer variable of 2. notice its written in javascript.
+    - Type Coercion occurs when the programming langauge executes a block of code and the data changes from one type to another type of data. Example a string variable of "2" changes to a integer variable of 2.
       ```
-      var x = "2";
-      var result = x + 2;
-      console.log(result);
+      let x = "2";
+      let y = 2;
+      console.log(x + y);
       ```
   - #### Type Conversion
     - Type Conversion is the manual conversion of a data type by a programmer, example a string variable of 8 changes to an integer of 8.
@@ -250,7 +250,13 @@ References
     4. class payment:
        - Take the payment from the customer.
     5. class order confirmation:
-       - This class would send the order to the kitchen and end once the customer recieves the food.
+       - This class would send the order to the kitchen so they can accept the order.
+    6. class kitchen prepares order:
+       - Order being prepared.
+    7. class send food to customer:
+       - Once the order has been prepared it can be delivered to the customer.
+    8. class review:
+       - this will ask the customer how there experience was
 
 ## _Question 12_
 ```
